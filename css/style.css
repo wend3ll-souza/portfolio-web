@@ -1,0 +1,178 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+#indice {
+    background-color: rgb(17, 16, 16);
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    height: 2rem;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+}
+
+#indice img {
+    width: 28px;
+    height: 28px;
+    margin: .1rem;
+    margin-left: 3rem;
+}
+
+#indice ul li {
+    color: aliceblue;
+    float: left;
+    margin: .5rem;
+    margin-right: 2rem;
+}
+
+#indice ul {
+    margin-left: 8rem;
+}
+
+#home {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+.capa-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.capa-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .7;
+    animation: zoom 25s;
+}
+
+.header {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+    color: aliceblue;
+    width: 50%;
+    height: 15%;
+    margin-top: 15rem;
+    margin-left: 5rem;
+    position: absolute;
+}
+
+#about {
+    background-color: rgb(145, 145, 145);
+    width: 100%;
+    height: 100vh;
+}
+
+.perfil-img-wrapper {
+    width: 7rem;
+    height: 11rem;
+    background-color: black;
+    float: left;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    border-radius: 2rem;
+}
+
+.perfil-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    opacity: .9;
+}
+
+.text-about {
+    font-family: 'Nunito', sans-serif;
+    width: 30rem;
+    height: 30rem;
+    float: left;
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+
+#skills {
+    background-color: rgb(145, 145, 145);
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.html {
+    width: 15rem;
+    height: 25rem;
+    margin: .5rem;
+}
+
+.css {
+    width: 15rem;
+    height: 25rem;
+    margin: .5rem;
+}
+
+.js {
+    width: 15rem;
+    height: 25rem;
+    margin: .5rem;
+}
+
+.inkscape {
+    width: 15rem;
+    height: 25rem;
+    margin: .5rem;
+}
+
+#projects {
+    background-color: rgb(145, 145, 145);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects1 {
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    margin: 1rem;
+}
+
+.projects2 {
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    margin: 1rem;
+}
+
+.projects3 {
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    margin: 1rem;
+}
+
+#contact {
+    background-color: darkgoldenrod;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myContact {
+    background-color: aqua;
+    width: 30rem;
+    height: 30rem;
+}
