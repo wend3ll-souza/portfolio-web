@@ -92,44 +92,47 @@
 
 .text-about {
     font-family: 'Nunito', sans-serif;
-    width: 30rem;
-    height: 30rem;
+    width: 15rem;
     float: left;
     margin-top: 5rem;
     margin-left: 2rem;
 }
 
-#skills {
-    background-color: rgb(145, 145, 145);
-    width: 100%;
-    height: 10%;
+#myKnowledge {
+    width: 30rem;
+    margin-top: 5rem;
+    margin-right: 10rem;
+    float: right;
+}
+
+.title {
     display: flex;
-    align-items: center;
     justify-content: center;
+    margin-bottom: 1rem;
+    font-family: nunito;
+    color: rgba(208, 219, 228, 0.918);
+    text-decoration: underline;
+    text-decoration-color: rgba(165, 147, 147, 0.897);
 }
 
-.html {
-    width: 15rem;
-    height: 25rem;
-    margin: .5rem;
+.knowledge {
+    background-color: rgba(121, 110, 218, 0.356);
+    width: 10rem;
+    font-family: nunito;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
 }
 
-.css {
-    width: 15rem;
-    height: 25rem;
-    margin: .5rem;
+.knowledge-text {
+    margin-top: .3rem;
+    margin-bottom: 1.3rem;
 }
 
-.js {
-    width: 15rem;
-    height: 25rem;
-    margin: .5rem;
-}
-
-.inkscape {
-    width: 15rem;
-    height: 25rem;
-    margin: .5rem;
+.fab fa-html5 {
+    margin-right: 1rem;
+    font-size: 2rem;
 }
 
 #projects {
