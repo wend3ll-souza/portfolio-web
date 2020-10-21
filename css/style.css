@@ -55,7 +55,7 @@ body {
 
 .icon {
     position: absolute;
-    left: 77rem;
+    left: 70rem;
     top: 6px;
 }
 
@@ -158,6 +158,13 @@ body {
     width: 30rem;
     margin-right: 10rem;
     float: right;
+    position: absolute;
+    top: 45rem;
+    left: 42rem;
+}
+
+#myKnowledge h1 {
+    margin-bottom: 2rem;
 }
 
 .title {
@@ -180,9 +187,9 @@ body {
 
 .knowledge-text {
     font-family: nunito;
-    font-size: 1.1rem;
-    margin-top: .3rem;
-    margin-bottom: 1.3rem;
+    font-size: 1rem;
+    margin-top: .2rem;
+    margin-bottom: 1rem;
 }
 
 .fab fa-html5 {
@@ -204,9 +211,12 @@ body {
     position: relative;
     bottom: 17rem;
     left: 40rem;
+    top: -16rem;
 }
 
 .projects {
+    position: relative;
+    top: 4rem;
     box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.452);
     border-radius: 3rem;
     margin: 5rem;
