@@ -6,8 +6,13 @@
     text-decoration: none;
 }
 
+body {
+    background-color: rgb(145, 145, 145);
+}
+
 #indice {
-    background-color: rgb(17, 16, 16);
+    background-color: rgb(12, 11, 11);
+    box-shadow: 0 1px 6px 0 rgb(0, 0, 0);
     font-family: 'Nunito', sans-serif;
     width: 100%;
     height: 2rem;
@@ -32,6 +37,10 @@
 
 #indice ul {
     margin-left: 8rem;
+}
+
+.menu:hover {
+    font-weight: bold;
 }
 
 #home {
@@ -73,6 +82,12 @@
     height: 100vh;
 }
 
+#myAbout {
+    position: relative;
+    top: 4rem;
+    right: 28rem
+}
+
 .perfil-img-wrapper {
     width: 7rem;
     height: 11rem;
@@ -98,9 +113,17 @@
     margin-left: 2rem;
 }
 
+.verticalLine {
+    position: absolute;
+    margin-top: 5%;
+    right: 60%;
+    width: .5px;
+    height: 70%;
+    border-left: 2px solid rgba(0, 0, 0, 0.377);
+}
+
 #myKnowledge {
     width: 30rem;
-    margin-top: 5rem;
     margin-right: 10rem;
     float: right;
 }
@@ -135,47 +158,194 @@
     font-size: 2rem;
 }
 
-#projects {
+#myProjects {
     background-color: rgb(145, 145, 145);
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
-.projects1 {
-    width: 15rem;
-    height: 15rem;
-    float: left;
-    margin: 1rem;
+#myProjects h1 {
+    position: relative;
+    bottom: 17rem;
+    left: 40rem;
 }
 
-.projects2 {
+.projects {
+    margin: 5rem;
     width: 15rem;
-    height: 15rem;
-    float: left;
-    margin: 1rem;
+    height: 30rem;
+    cursor: pointer;
 }
 
-.projects3 {
-    width: 15rem;
-    height: 15rem;
-    float: left;
-    margin: 1rem;
+.project-img-wrapper {
+    width: 100%;
+    height: 100%;
+    border-radius: 3rem;
+    background-color: #000;
+}
+
+.project-img-wrapper img {
+    object-fit: cover;
+    border-radius: 3rem;
+    width: 100%;
+    height: 100%;
+    opacity: 70%;
+    transition: opacity .3s;
+}
+
+.projects:hover .project-img-wrapper img {
+    opacity: .5;
+}
+
+.card-info {
+    opacity: 0;
+    position: relative;
+    bottom: 19rem;
+    padding: 50px;
+    text-shadow: 0 .1rem .3rem rgba(0, 0, 0, .4);
+    transition: all .3s;
+}
+
+#programming {
+    position: relative;
+    right: 28px;
+}
+
+.projects:hover .card-info {
+    bottom: 21rem;
+    opacity: 1;
+}
+
+.card-info h2 {
+    font-family: nunito;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.card-info h3 {
+    font-family: nunito;
+    font-weight: bolder;
+    color: #ff4081;
+    font-size: 1rem;
+}
+
+.card-info p {
+    font-family: nunito;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.card-info a {
+    position: relative;
+    font-size: 17px;
+    font-family: nunito;
+    color: #ffff;
+    background-color: #6097a579;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    top: 2rem;
+    padding: .5rem 1rem;
+}
+
+.card-info a:hover {
+    color: black;
 }
 
 #contact {
-    background-color: darkgoldenrod;
     width: 100%;
     height: 100vh;
+    background-color: #242424d7;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 12rem;
 }
 
-.myContact {
-    background-color: aqua;
-    width: 30rem;
+.contact-wrapper {
+    width: 60%;
     height: 30rem;
+    display: flex;
+}
+
+.contact-left {
+    width: 35%;
+    background: linear-gradient(rgba(15, 15, 15, 0.3), rgba(22, 22, 22, 0.6)), url(https://images.unsplash.com/photo-1557853197-aefb550b6fdc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80);
+    background-size: cover;
+}
+
+.contact-right {
+    width: 65%;
+    background-color: #eee;
+    padding: 3rem 3rem 3rem 3rem;
+    font-family: nunito;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+#contact button {
+    font-family: var(--font-action);
+    color: #ffff;
+    background-color: #6097a579;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin-top: 1rem;
+    padding: .5rem 1rem;
+}
+
+#contact h1 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #272727;
+    font-size: 31px;
+    top: -182px;
+    right: -83px;
+}
+
+#contact button:hover {
+    color: #242424;
+}
+
+#contact form {
+    position: relative;
+    right: 86px;
+    bottom: -30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group {
+    position: relative;
+}
+
+.field {
+    background: transparent;
+    border: none;
+    width: 20rem;
+    font-size: .9rem;
+    font-family: sans-serif;
+    border-bottom: 2px dashed #636363;
+    height: 3rem;
+    outline: none;
+}
+
+.field-label {
+    position: absolute;
+    left: 0;
+}
+
+.input-group textarea {
+    width: 320px;
+    height: 150px;
+    resize: none;
 }

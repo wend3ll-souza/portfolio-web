@@ -21,16 +21,16 @@
         <img src="./img/android-chrome-192x192.png" alt="logo">
         <ul>
             <a href="#home">
-                <li>Home</li>
+                <li class="menu">Home</li>
             </a>
             <a href="#about">
-                <li>About</li>
+                <li class="menu">About</li>
             </a>
-            <a href="#projects">
-                <li>Projects</li>
+            <a href="#myProjects">
+                <li class="menu">Projects</li>
             </a>
             <a href="#contact">
-                <li>Contact</li>
+                <li class="menu">Contact</li>
             </a>
         </ul>
     </div>
@@ -55,6 +55,9 @@
 
     <section id="about">
 
+        <h1 id="myAbout" class="title">
+            About
+        </h1>
         <div class="perfil-img-wrapper">
 
             <img src="./img/perfilLinkd.jpg" alt="Foto de perfil">
@@ -67,6 +70,7 @@
                 My dream is to help the world using my knowledge. I am a calm person, of good temperament, that I enjoy every experience. <strong>I am in constant development, as is this portfolio.</strong>
             </p>
         </div>
+
 
         <div id="myKnowledge">
 
@@ -101,7 +105,7 @@
             <div class="knowledge-text">
                 <p>
                     I am constantly developing in that language. I have the ability to use <em>
-                    Java Script</em> for aesthetic purposes in web applications..</p>
+                                Java Script</em> for aesthetic purposes in web applications..</p>
 
             </div>
 
@@ -127,37 +131,86 @@
             </div>
 
         </div>
+        <div class="verticalLine"></div>
     </section>
 
 
 
-    <section id="projects">
+    <section id="myProjects">
 
-        <div class="projects1">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis similique beatae molestiae voluptatem earum illum, voluptate est doloribus quisquam adipisci facere quas perferendis rem? Blanditiis fugit et ducimus quaerat tenetur molestiae!
-                Id, quam distinctio! Quidem quas, recusandae et corrupti quia, repellendus sint iste, assumenda saepe quisquam incidunt harum delectus maxime.</p>
+        <div class="title">
+            <h1>Projects</h1>
         </div>
-        <div class="projects2">
-            </i>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis similique beatae molestiae voluptatem earum illum, voluptate est doloribus quisquam adipisci facere quas perferendis rem? Blanditiis fugit et ducimus quaerat tenetur molestiae!
-                Id, quam distinctio! Quidem quas, recusandae et corrupti quia, repellendus sint iste, assumenda saepe quisquam incidunt harum delectus maxime.</p>
+
+        <div class="projects">
+            <div class="project-img-wrapper">
+
+                <img src="./img/luca-bravo-XJXWbfSo2f0-unsplash.jpg" alt="project image">
+
+            </div>
+            <div class="card-info">
+                <h2 id="programming">Programming</h2>
+                <h3>Projects</h3>
+                <p>My projects are in continuos development.</p>
+                <a href="https://github.com/wend3ll-souza?tab=repositories" target="_blank">More</a>
+            </div>
         </div>
-        <div class="projects3">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis similique beatae molestiae voluptatem earum illum, voluptate est doloribus quisquam adipisci facere quas perferendis rem? Blanditiis fugit et ducimus quaerat tenetur molestiae!
-                Id, quam distinctio! Quidem quas, recusandae et corrupti quia, repellendus sint iste, assumenda saepe quisquam incidunt harum delectus maxime.</p>
+
+        <div class="projects">
+            <div class="project-img-wrapper">
+
+                <img src="./img/redator.jpg" alt="project image">
+                <div class="card-info">
+                    <h2>Blog</h2>
+                    <h3>Lerning with me</h3>
+                    <p>Sharing knowledge is also learning.</p>
+                    <a>More</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="projects">
+            <div class="project-img-wrapper">
+
+                <img src="./img/mainArt.png" alt="project image">
+                <div class="card-info">
+                    <h2>Design</h2>
+                    <h3>Art</h3>
+                    <p>Creativity opens up many possibilities.</p>
+                    <a href="https://www.behance.net/wend3llsouza" target="_blank">More</a>
+                </div>
+            </div>
+
         </div>
 
     </section>
 
 
     <section id="contact">
+        <div class="contact-wrapper">
+            <div class="contact-left">
 
-        <div class="myContact">
-
+            </div>
+            <div class="contact-right">
+                <h1>Contact</h1>
+                <form>
+                    <div class="input-group">
+                        <input type="text" class="field" id="name">
+                        <label for="name" class="field-label">Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="field" id="email"><label for="email" class="field-label">E-mail</label>
+                    </div>
+                    <div class="input-group">
+                        <label for="Message" class="field-label">Message</label>
+                        <textarea class="field" id="Message"></textarea>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
         </div>
-
     </section>
-
 </body>
 
 </html>
