@@ -7,30 +7,35 @@
 }
 
 body {
+    width: 100%;
     background-color: rgb(145, 145, 145);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
 
 #indice {
     background-color: rgb(12, 11, 11);
     box-shadow: 0 1px 6px 0 rgb(0, 0, 0);
     font-family: 'Nunito', sans-serif;
+    font-size: 20px;
     width: 100%;
-    height: 2rem;
+    height: 2.7rem;
     position: fixed;
     z-index: 2;
     display: flex;
 }
 
 #indice img {
-    width: 28px;
-    height: 28px;
+    width: 40px;
+    height: 37px;
     margin: .1rem;
     margin-left: 3rem;
     cursor: pointer;
 }
 
 #indice ul li {
-    color: aliceblue;
     float: left;
     margin: .5rem;
     margin-right: 2rem;
@@ -40,8 +45,28 @@ body {
     margin-left: 8rem;
 }
 
+.menu {
+    color: rgb(161, 158, 158);
+}
+
 .menu:hover {
-    font-weight: bold;
+    color: white;
+}
+
+.icon {
+    position: absolute;
+    left: 77rem;
+    top: 6px;
+}
+
+.web {
+    color: rgb(161, 158, 158);
+    margin-right: 27px;
+    font-size: 32px;
+}
+
+.web:hover {
+    color: rgba(255, 255, 255, 0.877);
 }
 
 #home {
@@ -85,6 +110,8 @@ body {
 
 #myAbout {
     position: relative;
+    justify-content: center;
+    margin-bottom: 1rem;
     top: 4rem;
     right: 28rem
 }
@@ -93,6 +120,7 @@ body {
     width: 7rem;
     height: 11rem;
     background-color: black;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.445);
     float: left;
     margin-top: 5rem;
     margin-left: 1rem;
@@ -114,13 +142,16 @@ body {
     margin-left: 2rem;
 }
 
+.text-about p {
+    font-size: 1.2rem;
+}
+
 .verticalLine {
     position: absolute;
     margin-top: 5%;
     right: 60%;
-    width: .5px;
     height: 70%;
-    border-left: 2px solid rgba(0, 0, 0, 0.377);
+    border-left: .1px solid rgba(0, 0, 0, 0.226);
 }
 
 #myKnowledge {
@@ -131,12 +162,9 @@ body {
 
 .title {
     display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
     font-family: nunito;
+    text-shadow: 0 .1rem .3rem rgba(0, 0, 0, .4);
     color: rgba(208, 219, 228, 0.918);
-    text-decoration: underline;
-    text-decoration-color: rgba(165, 147, 147, 0.897);
 }
 
 .knowledge {
@@ -147,9 +175,12 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 3rem;
+    text-shadow: 0 .1rem .3rem rgba(0, 0, 0, .4);
 }
 
 .knowledge-text {
+    font-family: nunito;
+    font-size: 1.1rem;
     margin-top: .3rem;
     margin-bottom: 1.3rem;
 }
@@ -176,6 +207,8 @@ body {
 }
 
 .projects {
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.452);
+    border-radius: 3rem;
     margin: 5rem;
     width: 15rem;
     height: 30rem;
