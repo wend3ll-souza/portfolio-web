@@ -1,6 +1,6 @@
-# Portfolio Web
+# Share id Learn
 
-Projeto de Portfolio Web pessoal. irá ao ar com Git Pages assim que terminar
+Site onde estarei compartilhando o deploy de meus projetos
 
 # Terefas
 
