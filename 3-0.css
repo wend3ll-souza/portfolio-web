@@ -1,9 +1,19 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
+
 *{
     margin: 0;
     overflow-y: hidden;
 }
+#home {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+}
 
-main {
+#projects {
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -12,7 +22,16 @@ main {
     flex-direction: column;
 }
 
-.header {
+#articles {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .header {
     width: 100%;
     background-color: #333333;
     padding: 10px;
@@ -20,7 +39,7 @@ main {
     box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.452);
     position: fixed;
     top: 0;
-}
+} */
 
 .scrollmenu {
   overflow-y: hidden;
@@ -35,6 +54,7 @@ main {
   color: white;
   margin: 0px 15px 0px 15px;
   border-radius: 1rem;
+  box-shadow: 0 1px 4px 0 rgb(0, 0, 0);
 }
 
 .scrollmenu a img {
@@ -66,12 +86,12 @@ main {
     width: 100%;
     background-color: #333333;
     position: fixed;
-    bottom: 0;
+    top: 0;
     display: flex;
     justify-content: center;
 }
 
-.menu button {
+.menu a {
     height: 100%;
     width: 100%;
     background-color: #333333;
@@ -80,7 +100,7 @@ main {
     padding: 20px;
 }
 
-.menu button:nth-child(2){
+.menu a:nth-child(2){
     background-color: black;
 }
 
