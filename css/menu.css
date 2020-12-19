@@ -1,0 +1,24 @@
+.menu {
+    width: 100%;
+    background-color: #333333;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 1px 4px 0 rgb(0, 0, 0);
+    z-index: 5;
+    text-align: center ;
+}
+
+.menu a {
+    height: 100%;
+    width: 100%;
+    background-color: #333333;
+    border: none;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.menu a:hover{
+    background-color: black;
+}

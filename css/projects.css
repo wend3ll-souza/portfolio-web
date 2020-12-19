@@ -1,0 +1,50 @@
+#projects {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.scrollmenu {
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-top: 30px;
+}
+
+.myProjects {
+  width: 60%;
+  height: 250px;
+  background-color: #333;
+  display: inline-block;
+  color: white;
+  margin: 0px 15px 0px 15px;
+  border-radius: 1rem;
+  box-shadow: 0 1px 4px 0 rgb(0, 0, 0);
+}
+
+.scrollmenu a img {
+    width: 100%;
+    border-radius: 1rem;
+    height: 100%;
+    object-fit: cover;
+    opacity: .4;
+}
+
+
+.wrapper {
+    width: 100%;
+    border-radius: 1rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card-info {
+    position: absolute;
+    font-size: large;
+    text-shadow: #333;
+}
