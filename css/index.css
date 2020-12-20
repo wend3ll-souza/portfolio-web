@@ -4,15 +4,25 @@ main {
     top: 90px;
 }
 
+.about h3, h40{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.about a {
+    margin: 0 20px 0 10px;
+}
+
 .titles {
     text-align: center;
     margin-top: 40px;
 }
 
 .info {
-    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-
 
 .image {
     border-radius: 9em;
