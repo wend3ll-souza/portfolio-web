@@ -10,7 +10,7 @@
     text-align: center ;
 }
 
-.menu a {
+.menu a, button {
     height: 100%;
     width: 100%;
     background-color: #333333;
@@ -19,6 +19,6 @@
     padding: 20px;
 }
 
-.menu a:hover{
+.menu a:hover, button:hover{
     background-color: black;
 }
