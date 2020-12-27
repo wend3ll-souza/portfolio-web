@@ -1,0 +1,28 @@
+@keyframes right {
+    from {
+        transform: translateX(150%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.animate-right {
+    animation-name: right;
+    animation-duration: .9s;
+}
+
+@keyframes left{
+    from {
+        transform: translateX(-150%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+.animate-left {
+    animation-name: left;
+    animation-duration: .9s;
+}

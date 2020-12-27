@@ -1,32 +1,30 @@
 
 .main {
-    padding: 30px;
-    position: relative;
-    top: 90px;
+    padding: 20px;
+    max-width: 600px;
+}
+.about {
+    margin: 30% 0;
 }
 
-.about h3, h40{
+.about h2{
     text-align: center;
-    margin-top: 100px;
+    margin: 30px 0;
 }
 
-.about a {
-    margin: 0 20px 0 10px;
-}
 
 .titles {
     text-align: center;
-    margin-top: 40px;
+    margin: 30px 0 15px 0;
 }
 
-.info {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
 .image {
     border-radius: 9em;
     width: 4em;
     height: 6em;
+}
+
+.knowledge {
+    margin: 0 0 15% 0;
 }

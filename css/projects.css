@@ -10,12 +10,12 @@
 .scrollmenu {
     overflow-y: hidden;
     white-space: nowrap;
-    margin-top: 30px;
+    margin: 30% 0 0 0;
 }
 
 .myProjects {
-  width: 60%;
-  height: 250px;
+  width: 75%;
+  height: 300px;
   background-color: #333;
   display: inline-block;
   color: white;
@@ -44,7 +44,13 @@
 }
 
 .card-info {
+    width: 90%;
+    height: 60%;
     position: absolute;
     font-size: large;
-    text-shadow: #333;
 }
+
+.card-info p {
+    margin: 20% 0 0 0;
+}
+

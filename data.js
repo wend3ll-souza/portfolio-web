@@ -2,36 +2,33 @@ const projects = [
     
     {
         title : "Pixel Art",
-        describe : "project about color system",
+        describe : "Learn about Color<br>systems in a<br>fun way",
         link: "https://wend3ll-souza.github.io/pixelArt.io/",
         image: "https://source.unsplash.com/random"
     },
 
     {
-        title : "To do List",
-        describe : "project about color system",
-        link: "https://wend3ll-souza.github.io/pixelArt.io/",
+        title : "Task List",
+        describe : "Simple Online Agenda<br>using Local Stoge",
+        link: "https://wend3ll-souza.github.io/myTaskList.io/",
         image: "https://source.unsplash.com/random"
     },
 
     {
         title : "Tic Tec Toe",
-        describe : "project about color system",
+        describe : "Learning from classics",
         link: "https://wend3ll-souza.github.io/pixelArt.io/",
         image: "https://source.unsplash.com/random"
     }
 ]
 
 const perfil = {
-
         name: "Wendell Souza",
         image: "https://media-exp1.licdn.com/dms/image/C4D03AQGNaPcmA5eBnw/profile-displayphoto-shrink_200_200/0/1602133969596?e=1614211200&v=beta&t=X8eNVXlTFBqLzO44fHXxbJfLEROjLSvSl1YivONvrIQ",
         describe: "My name is Wendell Souza, I am 24 years old and I live in Campinas-SP, Brazil. I like to share knowledge and learn about computing science and your many features. At the moment I am studying Web Development and I use it routinely:"
 }
 
 const contact = [
-  
-
     {
         contact : "LinkedIn",
         link : "https://www.linkedin.com/in/wendell-souza-5b13781a3/",
@@ -61,9 +58,14 @@ const contact = [
         icon : "fab fa-behance-square"
     },
     {
-        contact : "email",
+        contact : "Email",
         link : "mailto:wend3llsouza@gmail.com",
         icon : "fab fa-behance-square"
+    },
+    {
+        contact : "WhatsApp",
+        link : "https://api.whatsapp.com/send?phone=5519987650743",
+        icon : "fab fa-whatsapp"
     }
 ]
 

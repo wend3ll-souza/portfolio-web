@@ -1,5 +1,21 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
 
-*{
+* {
     margin: 0;
+    text-decoration: none;
+    font-family: nunito;
 }
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+@media screen and (min-width: 800px) {
+    body {
+        display: flex;
+        justify-content: center;
+    }
+}
+

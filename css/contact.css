@@ -1,8 +1,35 @@
-#contact {
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.contact {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 30% 0 0 0 ;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact a {
+    color:royalblue;
+}
+
+.icons-contact{
+    margin: 10px 0 ;
+}
+
+
+@media screen and (min-width: 800px) {
+
+    .contact{
+        margin: 50% 0 0 0;
+    }
+    .info {
+        width: 300%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
