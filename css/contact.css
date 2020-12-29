@@ -21,15 +21,3 @@
 }
 
 
-@media screen and (min-width: 800px) {
-
-    .contact{
-        margin: 50% 0 0 0;
-    }
-    .info {
-        width: 300%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-}

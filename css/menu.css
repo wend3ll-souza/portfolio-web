@@ -10,7 +10,7 @@
     text-align: center ;
 }
 
-.menu  button {
+.menu  a {
     height: 100%;
     width: 100%;
     background-color: #333333;
@@ -19,31 +19,6 @@
     padding: 20px;
 }
 
-.menu button:hover{
-    background-color: black;
-}
-
-.menu-contact {
-    width: 100%;
-    background-color: #333333;
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    box-shadow: 0 1px 4px 0 rgb(0, 0, 0);
-    z-index: 5;
-    text-align: center ;
-}
-
-.menu-contact  button {
-    height: 100%;
-    width: 100%;
-    background-color: #333333;
-    border: none;
-    color: aliceblue;
-    padding: 20px;
-}
-
-.menu-contact button:hover{
+.menu a:hover{
     background-color: black;
 }
