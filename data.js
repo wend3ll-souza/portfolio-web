@@ -23,9 +23,9 @@ const projects = [
 ]
 
 const perfil = {
-        name: "Wendell Souza",
+        name: "B.M Wendell Souza",
         image: "https://media-exp1.licdn.com/dms/image/C4D03AQGNaPcmA5eBnw/profile-displayphoto-shrink_200_200/0/1602133969596?e=1614211200&v=beta&t=X8eNVXlTFBqLzO44fHXxbJfLEROjLSvSl1YivONvrIQ",
-        describe: "My name is Wendell Souza, I am 24 years old and I live in Campinas-SP, Brazil. I like to share knowledge and learn about computing science and your many features. At the moment I am studying Web Development and I use it routinely:"
+        describe: `My name is Wendell Souza, I am 24 years old and I live in Campinas-SP, Brazil. I like to share knowledge and learn about computing science and your many features. At the moment I am studying Web Development and I use it routinely:`
 }
 
 const contact = [
