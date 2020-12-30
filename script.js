@@ -1,11 +1,18 @@
 window.onload = () => {
 const main = document.getElementById("mainContainer");
-main.innerHTML = `<section id="home" class="about"> 
-                    <h2>Hello World ! <i class="fas fa-globe-americas"></i></h2>
-                    <p>${perfil.describe}</p>
-                    <section id="knowledge" class="knowledge"></section>
-                    <div id="knowledgeDinamicIndex"></div>
-                  </section>
+main.innerHTML = `<article class="jumbotron jumbotron-fluid">
+                    <div class="container text-center text-lg-left">
+                      <h2 class="display-4 text-center">Hello World ! <i class="fas fa-globe-americas"></i></h2>
+                      <p class="lead">${perfil.describe}</p>
+                      <hr class="my-4">
+                      <p>${perfil.describe}</p>
+                      <a class="btn btn-outline-white bg-light btn-lg" href="#">Saiba mais</a>
+                    </div>
+                    <div class="container my-5">
+                      <section id="knowledgeDinamicIndex" class="row align-items-center">
+                      </section>
+                    </div>
+                  </article>
                   <section id="project">
                     <section id="scrollmenu" class="scrollmenu"></section>
                   </section>
@@ -16,18 +23,18 @@ main.innerHTML = `<section id="home" class="about">
                       <div id="allLinks" class="allLinks animate-left"></div>
                       <img class="image animate-right" src="${perfil.image}" alt="foto de perfil">
                      </section>
-                  </footer>`
+                  </footer>
+               `
 let knowLedgeAcc = "";
 learned.forEach((element) => {
-  knowLedgeAcc += `<section class="artigo-text">
-                      <h3 class="titles" id="git">
-                        <i class="${element.icon}"></i>
-                        ${element.title}
-                      </h3>
-                      <p>
-                        ${element.describe}
-                      </p>
-                    </section>`;
+  knowLedgeAcc += `<article class="col-12 col-md-6 col-lg-3 mb-3 d-flex align-self-stretch">
+                    <div class="card">
+                      <div class="card-body text-center">
+                          <h5 class="card-title"><i class="${element.icon}"></i>${element.title}</h5>
+                          <p class="card-text">${element.describe}</p>
+                      </div>
+                    </div>
+                  </article>`;
 });
 let scrollAcc = "";
 projects.forEach((element) => {
