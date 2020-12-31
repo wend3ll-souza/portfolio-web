@@ -1,19 +1,19 @@
 window.onload = () => {
 const main = document.getElementById("mainContainer");
 main.innerHTML = `<article class="jumbotron jumbotron-fluid">
-                    <div class="container text-center text-lg-left">
-                      <h2 class="display-4 text-center">Hello World ! <i class="fas fa-globe-americas"></i></h2>
+                    <div class="container text-center text-lg-left ">
+                      <h1 class="text-center">Hello World ! <i class="fas fa-globe-americas"></i></h1>
                       <p class="lead">${perfil.describe}</p>
                       <hr class="my-4">
                       <p>${perfil.describe}</p>
                       <a class="btn btn-outline-white bg-light btn-lg" href="#">Saiba mais</a>
                     </div>
-                    <div class="container my-5">
-                      <section id="knowledgeDinamicIndex" class="row align-items-center my-5 bg-dark p-5">
+                  </article>
+                  <div class="container-fluid bg-dark py-5">
+                      <section id="knowledgeDinamicIndex" class="scrollmenu">
                       </section>
                     </div>
-                  </article>
-                  <section id="scrollmenu" class="row mt-5 main_last_articles">
+                  <section id="scrollmenu" class="scrollmenu mt-5 main_last_articles">
                     <div class="col-12 mt-5 mb-4">
                         <h2></h2>
                     </div>
@@ -43,27 +43,27 @@ main.innerHTML = `<article class="jumbotron jumbotron-fluid">
               </div>`
 let knowLedgeAcc = "";
 learned.forEach((element) => {
-  knowLedgeAcc += `<article class="col-12 col-md-6 col-lg-3 mb-3 d-flex align-self-stretch">
-                    <div class="card">
-                      <div class="card-body text-center">
-                          <h5 class="card-title"><i class="${element.icon}"></i>${element.title}</h5>
-                          <p class="card-text">${element.describe}</p>
-                      </div>
-                    </div>
-                  </article>`;
+  knowLedgeAcc += `<article href="" class="bg-light myProjects">
+  <div class="wrapper">
+      <section class="card-info text-center">
+      <h5>
+      <i class="${element.icon}"></i>${element.title}</h5>
+          <p class="p-3">${element.describe}</p>
+      </section>
+  </div>
+</article>`;
 });
 let scrollAcc = "";
 projects.forEach((element) => {
-  scrollAcc += `<a href=""><div class="col-12 col-md-6 col-lg-4 mb-4 d-flex align-self-stretch">
-  <div class="card">
-      <img src="${element.image}" class="card-img-top img-wrapper" alt="...">
-      <div class="card-body">
-          <h5 class="card-title">${element.title}</h5>
-          <p class="card-text">${element.describe}</p>
-          <p class="text-center"><a href="" class="btn btn-outline-purple d-block">Saber mais...</a></p>
-      </div>
+  scrollAcc += `<a href="${element.link}" class="myProjects">
+  <div class="wrapper">
+  <img src="${element.image}">
+      <section class="position-absolute text-center">
+      <h5>${element.title}</h3>
+          <p>${element.describe}</p>
+      </section>
   </div>
-</div></a>`;
+</a>`;
 });  
 let linksAcc = "";
 contact.forEach((element) => {
