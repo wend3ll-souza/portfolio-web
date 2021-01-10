@@ -13,11 +13,13 @@
   "author": "Wend3ll Souza",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wend3ll-souza/portfolio-web/issues"
+    "url": "https://github.com/wend3ll-souza/portfolio-web/"
   },
   "homepage": "https://github.com/wend3ll-souza/portfolio-web#readme",
   "dependencies": {
+    "@popperjs/core": "^2.6.0",
     "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
     "sass": "^1.32.0"
   }
 }

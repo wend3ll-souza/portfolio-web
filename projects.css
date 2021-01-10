@@ -4,27 +4,32 @@
 }
 
 .myProjects {
-  width: 25%;
-  height: 300px;
-  white-space: initial;
-  display: inline-block;
-  color: black;
-  margin: 4%;
-  border-radius: 1rem;
-  box-shadow: 0 1px 4px 0 rgb(0, 0, 0);
-  
+    width: 25%;
+    height: 300px;
+    white-space: initial;
+    display: inline-block;
+    color: black;
+    margin: 4%;
+    border-radius: 1rem;
+    box-shadow: 0 1px 4px 0 rgb(0, 0, 0);
+
 }
-@media (max-width: 1000px){
-    .myProjects{
+
+@media (max-width: 1000px) {
+    .myProjects {
         width: 40%;
     }
 }
-@media (max-width: 800px){
+
+@media (max-width: 800px) {
     .myProjects {
         width: 70%;
     }
-    .scrollmenu{
+
+    .scrollmenu {
         white-space: nowrap;
+        overflow-y: hidden;
+        overflow-x: visible;
     }
 }
 
@@ -47,6 +52,3 @@
     align-items: center;
     position: relative;
 }
-
-
-
