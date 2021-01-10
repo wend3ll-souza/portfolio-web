@@ -3,10 +3,20 @@
 .img-wrapper {
     height: 300px;
     object-fit: cover;
+    overflow: hidden;
+}
+
+.nav-style {
+    z-index: 5;
+    width: 100%;
 }
 
 .img-perfil {
  border-radius: 11rem;
  width: 100px;
  height: 100px;
+}
+
+.myMarginSet {
+    margin-left: 50%;
 }

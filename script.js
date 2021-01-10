@@ -1,6 +1,6 @@
 const helloMessage = () => {
   const p = document.querySelector('#helloMessage')
-  p.innerHTML = `${perfil.describe}`;
+  p.innerHTML = `${perfil.helloMessage}`;
 }
 
 const myKnowledges = () => {
@@ -9,8 +9,10 @@ const myKnowledges = () => {
     knowLedgeAcc += `<article href="" class="bg-light myProjects">
                         <div class="wrapper">
                           <section class="card-info text-center">
-                            <h5><i class="${element.icon}"></i>${element.title}</h5>
+                          <i class="${element.icon} ml-3 mr-3"></i>
+                            <h5>${element.title}</h5>
                             <p class="p-3">${element.describe}</p>
+                            <a class="btn btn-outline-white bg-warning btn-lg">Saiba mais</a>
                           </section>
                         </div>
                     </article>`;
@@ -37,7 +39,7 @@ const myProjects = () => {
 const moreabout = () => {
   document.getElementById('moreAbout').innerHTML = ` 
   <img class="col-6 img-perfil" src="${perfil.image}" alt="foto de perfil">
-  <p class="col-6"></p>`;
+  <p class="col-6">${perfil.describe}</p>`;
 }
 
 const contacts = () => {
@@ -48,10 +50,22 @@ const contacts = () => {
   document.getElementById("allLinks").innerHTML = linksAcc;
 }
 
+const curriculemVitae = () => {
+  const section = document.getElementById('curriculum');
+  section.innerHTML =`<section class="curriculum-section ">
+    <img  class="img-fluid" src="https://source.unsplash.com/random">
+      <section class="position-absolute myMarginSet">
+      <h5>Veja meu Curriculo Aqui:</h3>
+          <a class="btn text-dark btn-outline-white bg-light btn-lg">Download PDF</a>
+      </section>
+</section>`
+}
+
 window.onload = () => {
   helloMessage();
   myKnowledges();
   myProjects();
   moreabout();
   contacts();
+  curriculemVitae();
 }

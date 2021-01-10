@@ -25,7 +25,8 @@ const projects = [
 const perfil = {
         name: "B.M Wendell Souza",
         image: "https://media-exp1.licdn.com/dms/image/C4D03AQGNaPcmA5eBnw/profile-displayphoto-shrink_200_200/0/1602133969596?e=1614211200&v=beta&t=X8eNVXlTFBqLzO44fHXxbJfLEROjLSvSl1YivONvrIQ",
-        describe: `My name is Wendell Souza, I am 24 years old and I live in Campinas-SP, Brazil. I like to share knowledge and learn about computing science and your many features. At the moment I am studying Web Development and I use it routinely:`
+        describe: ``,
+        helloMessage: `Bem Vindo! <br> Neste Portifolio você irá encontrar demonstrações de Tecnoligias, que utilizo no meu cotidiano como Desenvolvedor Full Stack, e Projetos, frutos dos meus estudos na area de Desenvolvimento de Software. `
 }
 
 const contact = [
@@ -72,40 +73,29 @@ const contact = [
 const learned = [
     {
         title: "Git",
-        describe: "An essential tool for the developer's work is Git. I use this program daily for versioning of codes.This artifice brings more security and control over the projects. Thus, it is possible to check changes made in previous versions.",
+        describe: "Versionamento de código é uma prática frequente no dia a dia de um programador. O <b>Git</b> é um ferramenta eficente e segura para essa tarefa.",
         icon: "fas fa-code-branch"
     },
     {
         title: "GitHub",
-        describe: "Like Git, GitHub is a tool that also helps in the control and versioning of codes. There you can create a remote repository that will be linked to the local repository, and you can then make updates to both. I use this platform frequently to host my codes and deploy using GitPages.",
+        describe: "O <b>GitHub</b> proporciona que se crie repositorios remotos que poderam ser sincronizados com seus repositórios locais gerenciados pelo <b>Git</b>.",
         icon: "fab fa-github-square"
     },
     {
-        title: "HTML5",
-        describe: "I can create a variety of <em> HTML </em> pages, like this one. Contributing to a simple, comfortable, accessible and responsive environment.",
+        title: "HTML",
+        describe: "Crio páginas <b>HTML</b> pensando sempre em contribuir para um ambiente sintático confortável, acessível",
         icon: "fab fa-html5"
     },
     {
-        title: "CSS3",
-        describe: "I use CSS to position and give style the elements contained in an HTML page. Thus bringing new colors, fonts, and even animations. Making the final work more pleasing to the eye.",
+        title: "CSS",
+        describe: "Faço estilizações pensando sempre <b>Mobile First</b> e usando <b>CSS</b> e bibliotecas front-end, como <b>Bootstrap</b> personalizo páginas de agradável experiência ao usuário",
         icon: "fab fa-css3"
     },
     {
         title: "JavaScript",
-        describe: "I am constantly developing in this language. I can use <em>Java Script </em> To createdynamic elements within a page",
+        describe: "Estou em constante desenvolvimento nesta linguagem, sempre aprendendo mais sobre seus métodos e estudando os diversos <b>Frameworks</b> que a utilizar como base.",
         icon: "fab fa-js-square"
-    },
-    {
-        title: "VS Code",
-        describe: "VS Code is a great tool when it comes to editing codes. This could be done in other text editors. However, the VS Code brings with it a series of pluggins that help develop work more efficiently. The experience of using this tool on a daily basis day has noticeable productivity results.",
-        icon: "fas fa-laptop-code"
-    },
-    {
-        title: "Chrome DevTools",
-        describe: "Chrome DevTools is an essential and easily accessible tool in the daily life of a Web Developer. With it I can previously test configuration styles and fix them in the original file.",
-        icon: "fab fa-chrome"
-    },
-    
+    },   
 ]
 
 

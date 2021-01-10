@@ -5,13 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="projects.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="bootstrap.css">
         <title>index</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar nav-style navbar-expand-lg navbar-dark bg-dark position-fixed">
             <div class="container">
-            <a class="navbar-brand h1 mb-0" href="">TESTANDO</a>
+            <a class="navbar-brand h1 mb-0" href="">Portfolio <b>Web</b></a>
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -23,33 +23,33 @@
                 <div class="collapse navbar-collapse" id="navbarSite">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a href="" class="nav-link">test</a>
+                            <a href="#home" class="nav-link">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">test</a>
+                            <a href="#myKnowledge" class="nav-link">Conhecimentos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">test</a>
+                            <a href="#myProjects" class="nav-link">Projetos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">test</a>
+                            <a href="#contacts" class="nav-link">Contato</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <main id="mainContainer" class="bg-img main_content">
-            <article class="jumbotron jumbotron-fluid">
+        <main id="mainContainer" class="">
+            <article class="jumbotron jumbotron-fluid mb-0">
                 <div class="container text-center text-lg-left">
                     <h1 class="text-center">
                         Hello World !
                         <i class="fas fa-globe-americas"></i>
                     </h1>
                     <p id="helloMessage" class="lead"></p>
-                    <hr class="my-4">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eaque vel reiciendis voluptas est voluptatum esse sed perferendis molestias modi. Nulla, possimus explicabo commodi dolore porro nesciunt sit aspernatur omnis.</p>
-                    <a class="btn btn-outline-white bg-light btn-lg" href="#">Saiba mais</a>
                 </div>
+                <hr>
+                <br>
+                <section id="curriculum" class=""></section>
             </article>
             <div class="container-fluid bg-dark py-5">
                 <section id="knowledgeDinamicIndex" class="scrollmenu"></section>
@@ -75,10 +75,9 @@
             </div>
         </main>
     </body>
-    <script src="./node_modules/jquery/dist/jquery.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="./node_modules/@popperjs/core/dist/umd/popper.js"></script>
     <script src="script.js"></script>
     <script src="data.js"></script>
+    <script src="./jquery.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </html>
