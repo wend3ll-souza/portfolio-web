@@ -24,9 +24,9 @@ const projects = [
 
 const perfil = {
         name: "B.M Wendell Souza",
-        image: "https://media-exp1.licdn.com/dms/image/C4D03AQGNaPcmA5eBnw/profile-displayphoto-shrink_200_200/0/1602133969596?e=1614211200&v=beta&t=X8eNVXlTFBqLzO44fHXxbJfLEROjLSvSl1YivONvrIQ",
-        describe: ``,
-        helloMessage: `Bem Vindo! <br> Neste Portifolio você irá encontrar demonstrações de Tecnoligias, que utilizo no meu cotidiano como Desenvolvedor Full Stack, e Projetos, frutos dos meus estudos na area de Desenvolvimento de Software. `
+        image: "perfilImg.png",
+        describe: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum dignissimos voluptatibus cumque, sunt aut eos.`,
+        helloMessage: `<b>Bem Vindo!</b> Neste Portifolio você irá encontrar demonstrações de Tecnoligias, que utilizo no meu cotidiano como Desenvolvedor Full Stack, e Projetos, frutos dos meus estudos na area de Desenvolvimento de Software. `
 }
 
 const contact = [
@@ -40,12 +40,6 @@ const contact = [
         contact : "GitHub",
         link : "https://github.com/wend3ll-souza",
         icon : "fab fa-github-alt"
-    },
-
-    {
-        contact : "Behance",
-        link : "https://www.behance.net/wend3llsouza",
-        icon : "fab fa-behance-square"
     },
     
     {

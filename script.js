@@ -37,28 +37,28 @@ const myProjects = () => {
 }
 
 const moreabout = () => {
-  document.getElementById('moreAbout').innerHTML = ` 
-  <img class="col-6 img-perfil" src="${perfil.image}" alt="foto de perfil">
-  <p class="col-6">${perfil.describe}</p>`;
+  document.getElementById('moreAbout').innerHTML = `
+  <section class="container row">
+    <img class="img-perfil" src="${perfil.image}" alt="foto de perfil">
+    <p class="p-4 col-12">${perfil.describe}</p>
+  </section>`;
 }
 
 const contacts = () => {
   let linksAcc = "";
   contact.forEach((element) => {
-    linksAcc += `<li class="list-item"><i class="${element.icon}"><a target="_blank" class="mx-3" href="${element.link}">${element.contact}</a></i></li>`;
+    linksAcc += `<li class="list-item">
+                    <a target="_blank" class="mx-3" href="${element.link}">
+                      <i class="${element.icon} list-icon"> ${element.contact}</i>
+                    </a>
+                  </li>`;
   });
   document.getElementById("allLinks").innerHTML = linksAcc;
 }
 
 const curriculemVitae = () => {
   const section = document.getElementById('curriculum');
-  section.innerHTML =`<section class="curriculum-section ">
-    <img  class="img-fluid" src="https://source.unsplash.com/random">
-      <section class="position-absolute myMarginSet">
-      <h5>Veja meu Curriculo Aqui:</h3>
-          <a class="btn text-dark btn-outline-white bg-light btn-lg">Download PDF</a>
-      </section>
-</section>`
+  section.innerHTML =``
 }
 
 window.onload = () => {
@@ -67,5 +67,5 @@ window.onload = () => {
   myProjects();
   moreabout();
   contacts();
-  curriculemVitae();
+  // curriculemVitae();
 }

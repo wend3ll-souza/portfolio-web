@@ -9,7 +9,7 @@
         <title>index</title>
     </head>
     <body>
-        <nav class="navbar nav-style navbar-expand-lg navbar-dark bg-dark position-fixed">
+        <nav class="navbar nav-style navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
             <a class="navbar-brand h1 mb-0" href="">Portfolio <b>Web</b></a>
                 <button
@@ -45,34 +45,65 @@
                         Hello World !
                         <i class="fas fa-globe-americas"></i>
                     </h1>
-                    <p id="helloMessage" class="lead"></p>
+                    <p id="helloMessage" class="lead text-center"></p>
                 </div>
-                <hr>
                 <br>
-                <section id="curriculum" class=""></section>
+                <section id="curriculum py-5" class="">
+                    <section class="curriculum-section ">
+                        <img  class="img-fluid" src="https://source.unsplash.com/random">
+                          <section class="position-absolute myMarginSet">
+                          <h5>Veja meu Curriculo Aqui:</h3>
+                              <a class="btn text-dark btn-outline-white bg-light btn-lg">Download PDF</a>
+                          </section>
+                    </section>
+                </section>
             </article>
             <div class="container-fluid bg-dark py-5">
-                <section id="knowledgeDinamicIndex" class="scrollmenu"></section>
-            </div>
-            <section id="scrollmenu" class="scrollmenu mt-5 main_last_articles">
-                <div class="col-12 mt-5 mb-4">
-                    <h2></h2>
-                </div>
-            </section>
-            <div class="main_footer bg-info">
-                <section class="container">
-                    <div class="row py-5">
-                        <article id="moreAbout" class="col-12 d-flex col-md-6 col-lg-4"></article>
-                        <article class="col-12 col-md-6 col-lg-4">
-                            <div class="container text-center my-5">
-                                <h4>Contact</h4>
-                                <br>
-                            </div>
-                            <ul id="allLinks"></ul>
-                        </article>
-                    </div>
+                <section id="knowledgeDinamicIndex" class="scrollmenu container my-5">
                 </section>
             </div>
+            <section id="scrollmenu" class="scrollmenu py-5 container">
+            </section>
+            <section class="py-5">
+                <section class="curriculum-section">
+                    <img  class="img-fluid" src="https://source.unsplash.com/random">
+                    <section class="position-absolute myMarginSet">
+                        <h5>Visite meus Repositórios Remotos:</h3>
+                            <a class="btn text-dark btn-outline-white bg-light btn-lg">GitHub</a>
+                        </section>
+                    </section>    
+            </section>
+            
+            <footer class="bg-dark py-5">
+                <section class="container d-flex justify-content-between">
+                    <div class="row py-5">
+                        <article id="moreAbout" class="col-lg-6 col-md-6 col-12 d-flex"></article>
+                        <div class="container d-flex row col-12 col-md-6 col-lg-6">
+                            <ul id="fast-links"  class="col-lg-4 col-md-4 col-6 navbar-nav ml-auto">
+                                <h5>Navegue pela Página:</h5>
+                                <li class="nav-item">
+                                    <a href="#home" class="nav-link">Sobre</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#myKnowledge" class="nav-link">Conhecimentos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#myProjects" class="nav-link">Projetos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#contacts" class="nav-link">Contato</a>
+                                </li>
+                                
+                            </ul>
+                            <div class="col-lg-4 col-md-4 col-6">
+                                <h5>Entre em contato:</h5>
+                                <ul class="navbar-nav ml-auto" id="allLinks">
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                </section>
+            </footer>
         </main>
     </body>
     <script src="script.js"></script>
