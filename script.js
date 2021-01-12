@@ -12,7 +12,6 @@ const myKnowledges = () => {
                           <i class="${element.icon} ml-3 mr-3"></i>
                             <h5>${element.title}</h5>
                             <p class="p-3">${element.describe}</p>
-                            <a class="btn btn-outline-white bg-warning btn-lg">Saiba mais</a>
                           </section>
                         </div>
                     </article>`;
@@ -38,9 +37,9 @@ const myProjects = () => {
 
 const moreabout = () => {
   document.getElementById('moreAbout').innerHTML = `
-  <section class="container row">
+  <section class="container row d-flex align-items-center justify-content-around">
     <img class="img-perfil" src="${perfil.image}" alt="foto de perfil">
-    <p class="p-4 col-12">${perfil.describe}</p>
+    <p class="p-4 col-6 text-white">${perfil.describe}</p>
   </section>`;
 }
 
