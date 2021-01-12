@@ -4,28 +4,28 @@ const projects = [
         title : "Faça Arte em Pixels",
         describe : "Aprendendo sobre sistema<br>de cores de<br>uma forma divertida",
         link: "https://wend3ll-souza.github.io/pixelArt.io/",
-        image: "./5b9551799499766f3c3967ddbc303dfb.jpg"
+        image: "./img/5b9551799499766f3c3967ddbc303dfb.jpg"
     },
 
     {
         title : "Lista de Tarefas",
         describe : "Simples Agenda usando Local Stoge",
         link: "https://wend3ll-souza.github.io/myTaskList.io/",
-        image: "./lista_tareas.jpg"
+        image: "./img/lista_tareas.jpg"
     },
 
     {
         title : "Tic Tec Toe",
         describe : "Jogo da Velha",
         link: "https://wend3ll-souza.github.io/pixelArt.io/",
-        image: "./57081-1.jpg"
+        image: "./img/57081-1.jpg"
     },
 
     {
         title : "To Better Case",
         describe : "Convertendo tamanho de<br>textos",
         link: "https://wend3ll-souza.github.io/pixelArt.io/",
-        image: "./capslock.png"
+        image: "./img/capslock.png"
     },
 
 
