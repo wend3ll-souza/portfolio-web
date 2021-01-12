@@ -33,7 +33,7 @@ const projects = [
 
 const perfil = {
         name: "B.M Wendell Souza",
-        image: "perfilImg.png",
+        image: "./img/perfilImg.png",
         describe: `Está página foi desenvolvida para compartilhar e colocar em prática meus estudos na como <b>Desenvolverdor Full Stack</b>. Está em constante evolução, assim como meus conhecimentos. Visite meu <a target="_blank" href="https://www.linkedin.com/in/wendell-souza-5b13781a3/">LinkedIn</a> e não deixe de entrar em contato.`,
         helloMessage: `<b>Bem Vindo!</b> Neste Portifolio você irá encontrar <b>demonstrações de Tecnoligias</b>, que utilizo no meu cotidiano como <b>Desenvolvedor Full Stack</b>, e <b>Projetos</b>, frutos dos meus estudos na area de <b>Desenvolvimento de Software</b>. `
 }
