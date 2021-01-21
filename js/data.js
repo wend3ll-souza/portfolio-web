@@ -1,5 +1,5 @@
 const projects = [
-    
+
     {
         title : "Faça Arte em Pixels",
         describe : "Aprendendo sobre sistema<br>de cores de<br>uma forma divertida",
@@ -27,6 +27,12 @@ const projects = [
         link: "https://wend3ll-souza.github.io/pixelArt.io/",
         image: "./img/capslock.png"
     },
+    {
+	title: "Calculadora",
+	describe: "Faça sua<br>calculadora",
+	link: "https://wend3ll-souza.github.io/calculadora.io/",
+    	image: "./img/calc.jpg"
+     },
 
 
 ]
