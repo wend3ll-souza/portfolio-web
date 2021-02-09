@@ -17,7 +17,7 @@ const projects = [
     {
         title : "Tic Tec Toe",
         describe : "Jogo da Velha",
-        link: "https://wend3ll-souza.github.io/pixelArt.io/",
+        link: "https://wend3ll-souza.github.io/TicTecToe/",
         image: "./img/57081-1.jpg"
     },
 
